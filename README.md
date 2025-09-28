@@ -16,7 +16,7 @@ This project demonstrates a ChatGPT-like interface for querying an Azure Postgre
   -  Python 3.10+
   -  An Azure PostgreSQL database with the Iris dataset loaded (schema: sepal_length, sepal_width, petal_length, petal_width, species).
   -  Azure OpenAI service with a deployed chat completion model (e.g., GPT-3.5 or GPT-4).
-  -  A .env file with the following environment variables:
+  -  A .env file with the environment variables
 
 **How It Works**
 1.  Environment Setup
