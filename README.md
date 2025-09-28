@@ -39,3 +39,12 @@ This project demonstrates a ChatGPT-like interface for querying an Azure Postgre
   -  Demonstrates end-to-end usage by running a set of sample queries.
   -  Shows how plain English inputs are translated into SQL, executed against PostgreSQL, and returned as conversational answers.
 
+  **Limitations**
+  -  Works best with simple SELECT queries (no joins in current demo).
+  -  SQL safety depends on validation layer (not production hardened yet).
+  -  Only tested on the Iris dataset  (schema-specific prompts may need tuning.)
+
+**Acknowledgments**
+  -  Microsoft for the Semantic Kernel SDK.
+  -  Azure for PostgreSQL and OpenAI services.
+  -  The Iris dataset from Kaggle ( https://www.kaggle.com/datasets/mzeeshan786/iris-dataset)
